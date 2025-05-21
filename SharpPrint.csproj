@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="native\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="bin\Debug\net8.0\libessentia_bindings.so" />
+    </ItemGroup>
+
+</Project>

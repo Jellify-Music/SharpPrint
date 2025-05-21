@@ -1,0 +1,4 @@
+[submodule "native/essentia"]
+	path = native/essentia
+	url = https://github.com/wo80/essentia
+	branch = cmake
