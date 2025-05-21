@@ -1,6 +1,6 @@
-# SharpPoint
+# SharpPrint
 
-C# Bindings for some of essentia main features. 
+C# Bindings for some of *[Essentia](https://github.com/MTG/essentia)'s* main features. 
 
 # Building
 
