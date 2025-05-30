@@ -3,8 +3,11 @@
 C# Bindings for some of *[Essentia](https://github.com/MTG/essentia)'s* main features. 
 
 # Building
-
-LOL, good luck 👏
+1. Run shell script `native/build-ubuntu.sh` 
+2. Wait for release build to build
+3. Manually remove the references of tensorflow inside the headers after cmake has installed the package
+4. Build the essentia-binding package, and place the generated shared library somewhere your C# program can access it.
+5. Cry if it breaks
 
 # Using 
 ```csharp
