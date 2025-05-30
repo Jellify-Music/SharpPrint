@@ -55,10 +55,6 @@ extern "C" void ChromaPrinterScan(Algorithm *loader, Algorithm *chromaPrinter, c
     chromaPrinter->output("fingerprint").set(chromaprint);
     chromaPrinter->compute();
 
-    // if (len != chromaprint.capacity()) {
-    //     printf("Wanted: %lu size, got: %d\n", chromaprint.capacity(), len);
-    //     // throw runtime_error("wrong str length");
-    // }
     strncpy(str, chromaprint.data(), len);
 }
 
